@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @font-face {
+        font-family: 'rodondoregular';
+        src: url(css/rodondo-webfont.woff);
+        }
+
+        #dev {
+            font-style: italic;
+            font-family: 'rodondoregular';
+            font-weight: lighter;
+            font-size: 40px;
+            text-align: left;
+            color: white;
+            margin-bottom: 1px;
+        }
+    </style>
 </head>
+<div>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="column left">
+            <img src="images/videocult logo.png" alt="Videocult Logo">
+        </div>
+        <div class="column right">
+            <h1 id="dev">developer's contact information:</h1>
+            <div style="background-color: rgb(102, 102, 102); margin-right: 30px; padding-top: 1px; padding-bottom: 1px;">
+                <p class="marge">For press inquiries: <a href="mailto:projectrainworld@gmail.com" target="_top">eMail</a></p>
+                <p class="marge">Twitter: <a href="https://x.com/VideocultMedia">@VideocultMedia</a></p>
+                <p class="marge">Boston, MA</p>
+                <p class="marge">(747) 998-2193</p>
+            </div>
+        </div>
+    </div>
 </body>
+</div>
 </html>

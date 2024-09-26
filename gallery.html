@@ -4,8 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @font-face {
+        font-family: 'rodondoregular';
+        src: url(css/rodondo-webfont.woff);
+        }
+
+        div.gallery {
+        margin:24px;
+        margin-top: 0px;
+        }
+
+        div.gallery img {
+        width: 100%;
+        height: auto;
+        }
+
+        div.desc {
+        padding: 10px;
+        margin-top: 5px;
+        text-align: center;
+        background-color: rgb(102, 102, 102);
+        color: #000;
+        font-family: 'Trebuchet MS', sans-serif;;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 1000px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+        }
+
+        @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+        }
+
+        .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+    </style>
 </head>
+<div>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="gallery.html">Gallery</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<br>
+<div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Monk">
+        <img src="images/Monk_select_screen.png" alt="Monk"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Monk</h1>
+            <p style="margin-top: 0px;">Weak of body but strong in spirit. In tune with the mysteries of the world and empathetic to its creatures, your journey will be a significantly more peaceful one.</p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Survivor">
+        <img src="images/Survivor_select_screen.png" alt="Survivor"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Survivor</h1>
+            <p style="margin-top: 0px;">A nimble omnivore, both predator and prey. Lost in a harsh and indifferent land you must make your own way, with wit and caution as your greatest assets.</p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Hunter">
+        <img src="images/Hunter_select_screen.png" alt="Hunter"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Hunter</h1>
+            <p style="margin-top: 0px;">Strong and quick, with a fierce metabolism requiring a steady diet of meat. But the stomach won't be your only concern, as the path of the hunter is one of extreme peril.</p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Gourmand">
+        <img src="images/Gourmand_select_screen.png" alt="Gourmand"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Gourmand</h1>
+            <p style="margin-top: 0px;">An indulger of the simpler pleasures in life. Carrying the world in your stomach gives many tactical advantages, but comes at an increased cost of sustainability.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Artificer">
+        <img src="images/Artificer_select_screen.png" alt="Artificer"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Artificer</h1>
+            <p style="margin-top: 0px;">A fierce combatant, master of pyrotechnics and explosives. Keen to move up in the foodchain, your journey will surely be one lined with constant bloodshed and warfare.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Rivulet">
+        <img src="images/Rivulet_select_screen.png" alt="Rivulet"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Rivulet</h1>
+            <p style="margin-top: 0px;">Breathes underwater, and moves through the world with ease. These adaptations are essential, as you'll be pitted against a world of increasingly frequent floods, where time is of the essence.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Spearmaster">
+        <img src="images/Spearmaster_select_screen.png" alt="Spearmaster"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Spearmaster</h1>
+            <p style="margin-top: 0px;">An abnormality who feeds using needles pulled from its body. A traveller from a far away land; A feeling in your depths sets you out once again, messenger...</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <a href="https://rainworld.miraheze.org/wiki/Saint">
+        <img src="images/Saint_select_screen.png" alt="Saint"></a>
+        <div class="desc">
+            <h1 style="margin-bottom: 5px; font-family: rodondoregular; margin-top: 5px;">The Saint</h1>
+            <p style="margin-top: 0px;">Frail and armed with a long tongue. Your journey will be one of perfect enlightenment, but walking this path requires patience, caution, and complete attunement with the world.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
 </body>
+</div>
 </html>
